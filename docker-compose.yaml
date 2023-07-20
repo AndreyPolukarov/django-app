@@ -20,4 +20,4 @@ services:
         max-file: "10"
         max-size: "200k"
     volumes:
-      - ./mysite/database:/app/database
+      - ./mysite/database:/django-app/database
