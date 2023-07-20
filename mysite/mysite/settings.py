@@ -191,7 +191,7 @@ logging.config.dictConfig({
     },
     "handlers": {
         "console": {
-            "class": "lodding.StreamHandler",
+            "class": "logging.StreamHandler",
             "formatter": "console",
         },
     },
