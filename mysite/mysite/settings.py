@@ -28,7 +28,6 @@ DATABASE_DIR.mkdir(exist_ok=True)
 SECRET_KEY = getenv(
     "DJANGO_SECRET_KEY",
     'django-insecure-hvxn%qq=gyw^4*o2lo1#bw0=wh#ux9s8h!=@c608arf_gz3+^7',
-
 )
 
 
